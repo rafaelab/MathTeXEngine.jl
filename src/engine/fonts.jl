@@ -129,7 +129,33 @@ const default_font_families = Dict(
             :bolditalic => joinpath("TeXGyreHerosMakie", "TeXGyreHerosMakie-BoldItalic.otf"),
             :math => joinpath("TeXGyreHerosMakie", "TeXGyreHerosMakie-Regular.otf")
         )
-    )
+    ),
+    "TeXGyrePagella" => FontFamily(
+        Dict(
+            :regular => joinpath("TeXGyrePagella", "fonts/opentype/public/tex-gyre", "texgyrepagella-regular.otf"),
+            :italic => joinpath("TeXGyrePagella", "fonts/opentype/public/tex-gyre", "texgyrepagella-italic.otf"),
+            :bold => joinpath("TeXGyrePagella", "fonts/opentype/public/tex-gyre", "texgyrepagella-bold.otf"),
+            :bolditalic => joinpath("TeXGyrePagella", "fonts/opentype/public/tex-gyre", "texgyrepagella-bolditalic.otf"),
+            :math => joinpath("TeXGyrePagella", "fonts/opentype/public/tex-gyre", "texgyrepagella-math.otf")
+        )
+    ),
+    "TeXGyreAdventor" => FontFamily(
+        Dict(
+            :regular => joinpath("TeXGyreAdventor", "TeXGyreAdventor-Regular.otf"),
+            :italic => joinpath("TeXGyreAdventor", "TeXGyreAdventor-Italic.otf"),
+            :bold => joinpath("TeXGyreAdventor", "TeXGyreAdventor-Bold.otf"),
+            :bolditalic => joinpath("TeXGyreAdventor", "TeXGyreAdventor-BoldItalic.otf"),
+            # :math => joinpath("TeXGyreAdventor", "TeXGyreAdventor-Regular.otf")
+            :math => joinpath("LeteSansMath", "LeteSansMath.otf")
+        )
+    ),
+    "LeteSansMath" => FontFamily(
+        Dict(
+            :regular => joinpath("LeteSansMath", "LeteSansMath.otf"),
+            :bold => joinpath("LeteSansMath", "LeteSansMath-Bold.otf"),
+            :math => joinpath("LeteSansMath", "LeteSansMath.otf")
+        )
+    ),
 )
 
 
